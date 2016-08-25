@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPageBackground"
+    tools:context="com.developer.kailash.todolistv2.SettingsFragment">
+
+    <ToggleButton
+        android:id="@+id/vibrator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="Vibration On"
+        android:textOff="Vibration Off"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/themes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Themes"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@id/vibrator" />
+
+</RelativeLayout>
